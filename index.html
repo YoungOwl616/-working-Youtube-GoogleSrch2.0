@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="logo-div">
+        <img src="images/free-youtube-logo-icon.png" alt="">
+        <h1>Youtube / Google Search 2.0</h1>
+        <img src="images/google-logo-icon-png.png" alt="">
+    </div>
+
+    <input id="user-input" type="text">
+
+    <div id="srch-btn-div">
+        <button class="srch-btns" id="youtube-srch-btn" onclick="addStorageItem()">Search YouTube</button>
+        <button class="srch-btns" id="google-srch-btn" onclick="addStorageItem()">Search Google</button>
+    </div>
+
+    <div id="srch-history-div">
+        <h3>Recent Searches</h3>
+        <button id="clear-btn" onclick="clearHistory()">Clear Search History</button>
+    </div>
+    
+    <ul id="search-history-ul"></ul>
+
+    <script src="index.js"></script>
+</body>
+</html>

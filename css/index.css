@@ -1,0 +1,97 @@
+body { 
+    margin: 0px;
+    font-family: 'Sofia Sans', sans-serif;
+
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+}
+
+#logo-div {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 15px;
+}
+
+#user-input {
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 15px;
+    line-height: 30px;
+    padding: 7px 15px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#srch-btn-div {
+    width: 400px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.srch-btns {
+    font-family: 'Sofia Sans', sans-serif;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+#youtube-srch-btn {
+    background-color: rgb(250, 115, 115);
+}
+
+#youtube-srch-btn:hover {
+    background-color: rgb(255, 64, 64);
+}
+
+#google-srch-btn {
+    background-color: rgb(115, 140, 250);
+}
+
+#google-srch-btn:hover {
+    background-color: rgb(75, 108, 255);
+}
+
+#srch-history-div {
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clear-btn {
+    margin: 15px;
+    font-family: 'Sofia Sans', sans-serif;
+    border: none;
+    background-color: rgb(132, 132, 132);
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+#clear-btn:hover {
+    background-color: rgb(104, 104, 104);
+}
+
+#search-history-ul {
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 15px;
+    padding: 15px 20px 15px 55px;
+    width: 420px;
+    margin: 0px auto 40px auto;
+}
